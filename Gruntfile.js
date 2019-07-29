@@ -3,7 +3,7 @@ module.exports = function(grunt){
     svgfit: {
       files: 
         {
-          src: ['svg/*.svg'], 
+          src: ['svg/**/*.svg'], 
           dest: 'output/'
         }
       
